@@ -5,3 +5,7 @@ mod 'hunner/wordpress', '0.5.1'
 mod 'puppetlabs/apache', '0.10.0'
 mod 'puppetlabs/mysql', '2.1.0'
 mod 'puppetlabs/ntp', '3.0.1'
+mod 'puppetlabs/java', '1.0.1'
+
+mod 'ci',
+  :git => 'git://github.com/terrimonster/ci-site.git'
