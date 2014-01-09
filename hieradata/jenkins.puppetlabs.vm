@@ -1,5 +1,6 @@
 ---
 classes:
- - ntp
+ - ci::roles::jenkins
+
 ntp::servers:
  - us.pool.ntp.org

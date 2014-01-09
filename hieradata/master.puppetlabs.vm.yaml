@@ -1,2 +1,5 @@
 ---
+classes:
+ - ntp
+
 r10k::prerun_command::command: '/opt/puppet/bin/r10k synchronize'
